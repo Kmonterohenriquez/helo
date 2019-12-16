@@ -1,0 +1,44 @@
+.NewPost {
+  margin-top: 70px;
+  position: absolute;
+  width: calc(100% - 100px);
+  height: calc(100% - 100px);
+}
+
+.NewPost-container {
+  max-width: 500px;
+  border-radius: 5px;
+  padding: 30px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 5px 5px 10px #0000001f;
+          box-shadow: 5px 5px 10px #0000001f;
+}
+
+.NewPost-container label {
+  text-align: left;
+}
+
+.NewPost-container input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.NewPost-container button {
+  width: 100px;
+  margin: 20px 0;
+  border-style: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=NewPost.css.map */

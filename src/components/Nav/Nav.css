@@ -1,0 +1,52 @@
+.Nav {
+  height: 100vh;
+  width: 100px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#000046), to(#1cb5e0));
+  background: linear-gradient(to bottom, #000046, #1cb5e0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.Nav .user-pic {
+  margin-top: 30px;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  background: white;
+}
+
+.Nav .icon-container {
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Nav #logout {
+  position: absolute;
+  bottom: 35px;
+}
+
+.Nav a {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=Nav.css.map */

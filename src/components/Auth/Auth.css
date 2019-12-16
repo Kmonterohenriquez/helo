@@ -1,0 +1,63 @@
+.Auth {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#000046), to(#1cb5e0));
+  background: linear-gradient(to bottom, #000046, #1cb5e0);
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Auth .box {
+  max-width: 400px;
+  background: #292929;
+  padding: 60px;
+  border-radius: 20px;
+  -webkit-box-shadow: 10px 10px 10px #0000003f;
+          box-shadow: 10px 10px 10px #0000003f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Auth .box input {
+  border-style: none;
+  padding: 5px 10px;
+  margin: 10px;
+}
+
+.Auth h1 {
+  font-size: 3.5rem;
+}
+
+.Auth h2 {
+  margin-top: 0px;
+  font-size: 2rem;
+}
+
+.Auth button {
+  border-style: none;
+  margin-top: 30px;
+  margin-right: 20px;
+  padding: 10px 25px;
+  border-radius: 15px;
+  cursor: pointer;
+  outline: none;
+}
+/*# sourceMappingURL=Auth.css.map */
